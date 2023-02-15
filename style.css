@@ -1,0 +1,192 @@
+body {
+    background: linear-gradient(rgb(106, 106, 106), rgb(76, 76, 76));
+}
+.card {
+    display: flex;
+    justify-content: center;
+}
+.card_1 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 600px;
+    margin: 40px 0;
+    border-radius: 25px;
+    border: 1px solid #000;
+    box-shadow: -9px 5px 10px #000;
+}
+.header {
+    background: linear-gradient(to right, rgb(255, 107, 22), rgb(255, 52, 2));
+    height: 280px;
+    padding: 10px;
+    border-radius: 25px 25px 0 0;
+}
+.header_info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+.nike {
+    width: 50px;
+}
+.title {
+    letter-spacing: 5px;
+    color: white;
+    font-family: Courier, monospace;
+    font-size: 30px;
+}
+.text {
+    width: 300px;
+    color: white;
+    position: relative;
+}
+.text1 {
+    position: absolute;
+    bottom: 68%;
+    width: 330px;
+    color: rgba(255, 255, 255, 0.834);
+}
+.image {
+    position: relative;
+}
+.foto {
+    width: 300px;
+    position: absolute;
+    left: 65%;
+    bottom: 100%;
+}
+.text3 {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    position: absolute;
+    bottom: 53%;
+    color: rgba(82, 82, 82, 0.353);
+    letter-spacing: 40px;
+    font-weight: 200px;
+    font-family: Marker Felt, fantasy;
+}
+.text2 {
+    position: relative;
+}
+
+.footer {
+    background-color: white;
+    height: 320px;
+    border-radius: 0 0 25px 25px;
+}
+.a1 {
+    padding: 25px 25px;
+    display: flex;
+    justify-content: flex-start;
+} 
+.a1_1 {
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.a1_2 {
+    border: 1px solid #9eff03;
+    background-color: #07ff03;
+    border-radius: 20%;
+    color: white;
+    margin: -2px 20px;
+    font-size: 13px;
+    height: 15px;
+}
+.b2 {
+    padding: 0px 25px;
+    display: flex;
+    flex-direction: column;
+}
+.b2_1 {
+    font-family: Bradley Hand, cursive;
+    font-size: 15px;
+}
+.b2_2 {
+    font-family: Bradley Hand, cursive;
+    word-spacing: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.b2_3 {
+    font-weight: bold;
+}
+.b2_4 {
+    margin: -5px -40px;
+    word-spacing: 15px;
+}
+.b2_5 {
+    font-weight: bold;
+    margin-top: 5px;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #b2b2b29c;
+}
+span {
+    background-color: red;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    padding: 3px 4px;
+}
+
+.c3 {
+    display: flex;
+    margin: 15px 25px;
+}
+.c3_1 {
+    display: flex;
+}
+.bd {
+    border: 2px solid #919191c6;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: -4px;
+}
+.color1 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #ff007b;
+    margin: 3px 2px;
+}
+
+.color2 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #00ff04;
+    margin-left: 20px;
+}
+.color3 {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #fff200;
+    margin-left: 20px;
+}
+.c3_2 {
+    /* position: relative; */
+}
+.cost {
+    position: absolute;
+    right: 35%;
+    font-size: 30px;
+    top: 560px;
+    border: 1px solid #9eff03;
+    background-color: #07ff03;
+    width: 180px;
+    text-align: center;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+}
